@@ -1,6 +1,3 @@
-
-
-
 function criarContadorNumerico(numeroAlunos){
 
     function somaUsuario(){
@@ -58,9 +55,10 @@ class Avaliacao{
 
 const prova1 = new Avaliacao('prova', 8)
 const test = new Avaliacao('test', 10)
-
+console.log(prova1)
 const primeiroAluno = new Aluno("joao", '06/11/2004');
 primeiroAluno.addAvaliacao(prova1)
 primeiroAluno.addAvaliacao(test)
+
 console.log(primeiroAluno)
 console.log(primeiroAluno.idade)
